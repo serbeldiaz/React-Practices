@@ -1,6 +1,7 @@
 import './index.css';
 import TuLogo from './tu_logo.svg'
 import ArrowDown from './arrow_down.svg'
+import Menu from './Menu'
 
 function Header() {
   return (
@@ -18,6 +19,10 @@ function Header() {
           <span className='user-name'>Usuario </span>
           <img src={ArrowDown} alt="flecha hacia abajo" />
         </div>
+      </div>
+
+      <div className='menu-container'>
+        <Menu />
       </div>
     </div>
   );
